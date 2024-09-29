@@ -4,6 +4,9 @@ I wanted to find out how the Covid pandemic might have influenced the 2020 U.S. 
 
 - Use logistic regression to predict, given a county's Covid death rate as of Nov. 3, 202, whether that county went to Biden or Trump in the 2020 election.
 - Use linear regression on Covid death rate against counties' change in vote share between 2016 and 2020. In this analysis, only change in Republican/Democratic vote share (i.e. whether a county got redder or bluer, regardless of who actually won) was considered. A value of 0 means the vote share did not change in that county. A negative value means Biden got a higher share of votes in 2020 than Clinton did in 2016. A positive value means Trump got a higher share of votes in 2020 than he did in 2016. That means that even in a county Trump won in both years, the value could be negative if he won by a smaller margin in 2020.
+
+My hypothesis was that perhaps counties that were hit harder by Covid (those with a higher per-capita death rate) would have been more likely to vote for a "change candidate" rather than the incumbent in 2020 and therefore less likely to vote for Trump.
+
   
 I used the following data sources:
 - Covid deaths by county as of Nov. 3, 2020: The New York Times. (2021). Coronavirus (Covid-19) Data in the United States. Retrieved Sept. 13, 2024, from https://github.com/nytimes/covid-19-data. (Full disclosure: I work at The New York Times.)
